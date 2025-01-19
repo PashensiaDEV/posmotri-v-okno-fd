@@ -234,8 +234,11 @@ ol {
   object-fit: cover;
 }
 
-.content__list {
+.content__list-container {
   position: relative;
+}
+
+.content__list {
   display: flex;
   flex-direction: column;
   gap: 30px;
